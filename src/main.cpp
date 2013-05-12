@@ -18,7 +18,7 @@ void reverse_string(char* start){
   }
   end--;
    
-  while( start < end ){
+  while( start < end ){	//swap one by one character and using pointer
     tmp = *start;
     *start = *end;
     *end   = tmp;
