@@ -30,9 +30,19 @@ void reverse_string(char* start){
 
 int main(){
 
-  char a[] = "watermelon";
-  char b[] = "fleamarket";
+  char a[];
+  char b[];
+  
+  
+  // avoid predefined input or static input
+  // enter string as per user need to reverse
+  
+  
+  cout << "Please enter a word or characters (no spaces) : ";
+	cin >> a;
 
+  cout << "Please enter a word or characters (no spaces) : ";
+  cin >> b; 
   
   reverse_string(a);
   reverse_string(b);
